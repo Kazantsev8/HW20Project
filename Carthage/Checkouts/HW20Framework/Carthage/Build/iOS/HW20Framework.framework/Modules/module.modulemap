@@ -1,0 +1,11 @@
+framework module HW20Framework {
+  umbrella header "HW20Framework.h"
+
+  export *
+  module * { export * }
+}
+
+module HW20Framework.Swift {
+    header "HW20Framework-Swift.h"
+    requires objc
+}
